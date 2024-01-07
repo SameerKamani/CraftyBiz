@@ -1,0 +1,258 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>605</width>
+    <height>467</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QWidget" name="layoutWidget">
+    <property name="geometry">
+     <rect>
+      <x>180</x>
+      <y>60</y>
+      <width>281</width>
+      <height>231</height>
+     </rect>
+    </property>
+    <layout class="QVBoxLayout" name="verticalLayout">
+     <item>
+      <widget class="QLineEdit" name="material_name">
+       <property name="styleSheet">
+        <string notr="true">background-color: rgb(169, 192, 255);
+border-style: outset;
+border-width: 1px;
+border-radius: 5px;
+border-color: #00007f;</string>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLineEdit" name="supplier_id">
+       <property name="styleSheet">
+        <string notr="true">background-color: rgb(169, 192, 255);
+border-style: outset;
+border-width: 1px;
+border-radius: 5px;
+border-color: #00007f;</string>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLineEdit" name="cost">
+       <property name="styleSheet">
+        <string notr="true">background-color: rgb(169, 192, 255);
+border-style: outset;
+border-width: 1px;
+border-radius: 5px;
+border-color: #00007f;</string>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLineEdit" name="categoryLine_2">
+       <property name="styleSheet">
+        <string notr="true">background-color: rgb(169, 192, 255);
+border-style: outset;
+border-width: 1px;
+border-radius: 5px;
+border-color: #00007f;</string>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+   <widget class="QPushButton" name="closeButton">
+    <property name="geometry">
+     <rect>
+      <x>340</x>
+      <y>310</y>
+      <width>121</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(174, 209, 255);
+font: 10pt &quot;Comic Sans MS&quot;;
+color: #00007f;
+border-style: outset;
+border-width: 3px;
+border-radius: 5px;
+border-color: #00007f;
+</string>
+    </property>
+    <property name="text">
+     <string>Cancel</string>
+    </property>
+   </widget>
+   <widget class="QWidget" name="layoutWidget_2">
+    <property name="geometry">
+     <rect>
+      <x>50</x>
+      <y>60</y>
+      <width>131</width>
+      <height>221</height>
+     </rect>
+    </property>
+    <layout class="QVBoxLayout" name="verticalLayout_3">
+     <item>
+      <widget class="QLabel" name="label_6">
+       <property name="styleSheet">
+        <string notr="true">font: 8pt &quot;Comic Sans MS&quot;;
+color:rgb(0, 0, 127)
+</string>
+       </property>
+       <property name="text">
+        <string>Material Name:</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLabel" name="label_7">
+       <property name="styleSheet">
+        <string notr="true">font: 8pt &quot;Comic Sans MS&quot;;
+color:rgb(0, 0, 127)
+</string>
+       </property>
+       <property name="text">
+        <string>Supplier ID:</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLabel" name="label_8">
+       <property name="styleSheet">
+        <string notr="true">font: 8pt &quot;Comic Sans MS&quot;;
+color:rgb(0, 0, 127)
+</string>
+       </property>
+       <property name="text">
+        <string>Cost</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLabel" name="quality_metric">
+       <property name="styleSheet">
+        <string notr="true">font: 8pt &quot;Comic Sans MS&quot;;
+color:rgb(0, 0, 127)
+</string>
+       </property>
+       <property name="text">
+        <string>Quality Metric:</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+   <widget class="QPushButton" name="add">
+    <property name="geometry">
+     <rect>
+      <x>200</x>
+      <y>310</y>
+      <width>121</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(174, 209, 255);
+font: 10pt &quot;Comic Sans MS&quot;;
+color: #00007f;
+border-style: outset;
+border-width: 3px;
+border-radius: 5px;
+border-color: #00007f;
+</string>
+    </property>
+    <property name="text">
+     <string>Add</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_11">
+    <property name="geometry">
+     <rect>
+      <x>150</x>
+      <y>10</y>
+      <width>261</width>
+      <height>50</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 8pt &quot;Comic Sans MS&quot;;
+color:rgb(0, 0, 127)
+</string>
+    </property>
+    <property name="text">
+     <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:14pt; color:#00007f;&quot;&gt;Add Raw Materials&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_12">
+    <property name="enabled">
+     <bool>false</bool>
+    </property>
+    <property name="geometry">
+     <rect>
+      <x>-200</x>
+      <y>-120</y>
+      <width>1141</width>
+      <height>901</height>
+     </rect>
+    </property>
+    <property name="autoFillBackground">
+     <bool>false</bool>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">
+
+background-color: rgb(207, 232, 255);
+</string>
+    </property>
+    <property name="frameShape">
+     <enum>QFrame::Panel</enum>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <zorder>label_12</zorder>
+   <zorder>layoutWidget</zorder>
+   <zorder>closeButton</zorder>
+   <zorder>layoutWidget_2</zorder>
+   <zorder>add</zorder>
+   <zorder>label_11</zorder>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>605</width>
+     <height>26</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
