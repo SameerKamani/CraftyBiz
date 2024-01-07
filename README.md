@@ -23,7 +23,8 @@ CraftyBiz is a comprehensive business management application designed to streaml
 1. Ensure you have Python installed.
 2. Install required modules using `pip install pyodbc PyQt6`.
 3. Replace the database connection details in the script with your own.
-4. Run the application by executing the script.
+4. extract the zip file in screens
+5. Run the application by executing the script.
 
 **Note:**
 - The repository includes UI files for different screens, enhancing the user interface.
